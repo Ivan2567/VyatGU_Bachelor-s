@@ -1,0 +1,1 @@
+# VyatGU_Bachelor-s
