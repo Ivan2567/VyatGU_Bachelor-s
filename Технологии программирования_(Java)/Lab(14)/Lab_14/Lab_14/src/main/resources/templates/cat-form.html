@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Добавить кота</title>
+</head>
+
+<html>
+
+<body>
+
+<form th:action="@{/products}"
+      th:object="${filteer}">
+<!--    <span>id</span>-->
+<!--    <input th:field="*{minimum}" type="hidden">-->
+    </p>
+    <span>min</span>
+    <input th:field="*{minimum}">
+    </p>
+    <span>max</span>
+    <input th:field="*{maximum}">
+    </p>
+    <button type="submit">Сохранить</button>
+</form>
+
+</body>
+</html>
